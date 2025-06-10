@@ -1,6 +1,7 @@
 name: Scrap Sahi Buzz
 on:
-  schedule:
+   push:
+   schedule:
     # Runs every day at 1:30 PM UTC, which is 7:00 PM IST
     - cron: '30 13 * * *'
 
