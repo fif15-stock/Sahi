@@ -359,7 +359,7 @@ async function scrapeNews() {
 
         console.log('Waiting for news items to load...');
         await pageInstance.waitForSelector('.relative.p-4.transition-colors.duration-200.group.bg-surface-neutral-l1-dark.rounded-lg', {
-            timeout: 30000
+            timeout: 60000
         });
 
         console.log('Extracting news items...');
